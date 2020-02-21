@@ -1,0 +1,26 @@
+Vcc:- this pin is used for powering the MPU6050 module with respect to ground
+
+GND:- this is ground pin 
+
+SDA:-SDA pin is used for data between controller and mpu6050 module
+
+SCL:- SCL pin is used for clock input
+
+XDA:- This is sensor I2C SDA Data line for configuring and reading from external sensors  ((optional) not used in our case)
+
+XCL:- This is sensor I2C SCL clock line for configuring and reading from external sensors ((optional) not used in our case)
+
+ADO:- I2C Slave Address LSB (not applicable in our case)
+
+INT:- Interrupt pin for indication of data ready.
+
+
+
+
+VCC -> 3.3 V / 5 V (better)
+
+GND -> GND
+
+SCL -> A5
+
+SDA -> A4
